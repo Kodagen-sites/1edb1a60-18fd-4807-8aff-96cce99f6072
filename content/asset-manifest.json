@@ -1,0 +1,25 @@
+{
+  "images": {
+    "section-contact": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-contact.jpg",
+    "section-showcase-3": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-showcase-3.jpg",
+    "section-services": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-services.jpg",
+    "section-showcase-2": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-showcase-2.jpg",
+    "section-cta": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-cta.jpg",
+    "service-cloud-managed-services": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-cloud-managed-services.jpg",
+    "section-value": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-value.jpg",
+    "section-showcase-1": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-showcase-1.jpg",
+    "service-cybersecurity": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-cybersecurity.jpg",
+    "service-network-infrastructure": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-network-infrastructure.jpg",
+    "service-ict-consulting": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-ict-consulting.jpg",
+    "service-data-centre-solutions": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-data-centre-solutions.jpg",
+    "service-software-engineering": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/service-software-engineering.jpg",
+    "section-about": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/images/section-about.jpg"
+  },
+  "videos": {
+    "scene-1": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/videos/scene-1.mp4",
+    "final": "https://zykgxmubadvmlxpkqrzd.supabase.co/storage/v1/object/public/site-assets/1edb1a60-18fd-4807-8aff-96cce99f6072/videos/final.mp4"
+  },
+  "frames": {},
+  "bucket": "site-assets",
+  "projectId": "1edb1a60-18fd-4807-8aff-96cce99f6072"
+}

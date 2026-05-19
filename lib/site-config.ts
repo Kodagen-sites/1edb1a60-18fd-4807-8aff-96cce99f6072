@@ -35,12 +35,19 @@ export function asset(slot: string): string {
   return images[slot] || `/${slot}.jpg`;
 }
 
+const _fm = framesManifest as Record<string, unknown>;
 export const frames = {
   count: framesManifest.frameCount as number,
-  dir: framesManifest.frameDir as string,
   fps: framesManifest.fps as number,
-  /** ScrollCanvas pattern — accepts {nnnn} 4-digit token. */
-  urlTemplate: `${framesManifest.frameDir}/frame-{nnnn}.jpg`,
+  /**
+   * ScrollCanvas frame pattern. The kodagen asset pipeline uploads the
+   * extracted frame sequence to Supabase Storage and writes an absolute
+   * `frameUrlTemplate` into the manifest — prefer it; fall back to the
+   * local `/frames` dir for dev builds.
+   */
+  urlTemplate:
+    (typeof _fm.frameUrlTemplate === "string" && _fm.frameUrlTemplate) ||
+    `${String(_fm.frameDir ?? "/frames")}/frame-{nnnn}.jpg`,
 };
 
 export const heroVideoUrl: string = videos["scene-1"] || "";
